@@ -1,14 +1,6 @@
 #!/usr/bin/env bash
 #displays Best School 10 times
-i=l
-while [ "$i" -le 10 ]
+for ((i=0; i<10; i++))
 do
-        if [ "$i" -eq 9]
-        then
-                echo "Best Schol"
-                echo "Hi"
-        else
-                echo "Best School"
-        fi
-        i=$(( i + 1 ))
+    echo "Best School"
 done
