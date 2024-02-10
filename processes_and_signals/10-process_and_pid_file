@@ -1,4 +1,4 @@
-#!usr/bin/env bash
+#!/usr/bin/env bash
 #Process and PID file
 terminator() {
   rm /var/run/myscript.pid
